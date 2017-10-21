@@ -1,0 +1,33 @@
+{
+  "name": "login-ssr-api",
+  "version": "1.0.0",
+  "description": "API used for the Login SSR repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever index.js",
+    "server": "nodemon index.js",
+    "dev": "npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibramos/Login-SSR-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibramos/Login-SSR-API/issues"
+  },
+  "homepage": "https://github.com/ibramos/Login-SSR-API#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-session": "^2.0.0-beta.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "forever": "^0.15.3",
+    "mongoose": "^4.11.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}
